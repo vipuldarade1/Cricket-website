@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Teams</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/6f5013579e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div id="top-container">
+            <div id="top-right">
+                <img src="./image/PngItem_1270088.png" alt="logo" id="lo-go">
+                <a href="./index.html"> <button id="home" class="add-teams-cd">Home</button></a>
+                <h1 class="headers">Add Teams</h1>
+            </div>
+            <div id="top-left">
+                <div class="search">
+                    <div class="icon1"><i class="fas fa-search"></i></div>
+                    <input type="text" placeholder="          Enter team name " id="forserach">
+                    <div class="autocom">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </header>
+    <!-- <div style="display: flex;align-items: center;">
+    <h1 class="headin">Add Team</h1></div> -->
+    <div id="addteam-conta">
+     <h1>Add Team</h1>
+        <form id="teamaddf">
+            <p>Team Name</p>
+            <input id="onein" type="text" name="teamName" placeholder="Enter team name here.." required>
+            <p>Team logo Url</p>
+            <input id="threin" type="text" name="logoUrl" placeholder="enter logo URL here.." required>
+            <p>Won count</p>
+            <input id="fourin" type="number" name="wonCount" maxlength="1" placeholder="enter won count here.."
+                required>
+
+            <button type="submit" class="teamadd-but">Add team</button>
+        </form>
+
+    </div>
+
+    <footer>@Vipul Darade</footer>
+</body>
+<script src="./addteams.js"></script>
+
+</html>
